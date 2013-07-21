@@ -4,7 +4,6 @@ class CreateGroups < ActiveRecord::Migration
       t.string :name
       t.string :motto
       t.references :user
-      
     end
   end
 
